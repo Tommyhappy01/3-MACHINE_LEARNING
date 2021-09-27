@@ -1,0 +1,10 @@
+Saygideger Hocalarim, hayirli pazarlar. Umarim sevdiklerinizle iyi bir zaman geciriyorsunuzdur.
+ML baslamadan once, sakin bir baslangic adina ekteki linke bakabilirsiniz. Google un kendi calisanlari icin duzenledigi 6 saatlik ML-AI tanitim calismasinin ilk bolumu.
+Ekte bir snapshot paylastim. 12 step yaklasimi hakkinda bilgi verebilir.
+ML nedir, surecleri nelerdir. Oldukca akici ve ise yarar bir paylasim.
+Buradaki kurs ilerledikce, linkteki kursun diger bolumlerine de bakabilirsiniz.
+Selamlar :man-raising-hand:
+
+Link: https://www.youtube.com/watch?v=fgF6XzcK3jw&list=LL&index=2
+
+https://www.datacamp.com/community/tutorials/probability-distributions-python

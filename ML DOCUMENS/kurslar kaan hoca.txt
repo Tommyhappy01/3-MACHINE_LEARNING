@@ -1,0 +1,13 @@
+Saygideger Hocalarim, hayirli sabahlar.
+Umarim hersey sizin ve sevdikleriniz acisindan yolundadir.
+Bir proje uzerine ugrasirken, guzel bir kac kaynak buldum, onlari paylasmak istiyorum.
+Paylasacagim kaynaklardan ilki su an kullanilabilir, diger ikisi elimizin altinda olsun, Machine Learning de ins isimize yarayacaktir.
+1. Top 15 Python kutuphanesi (Pandas, Seaborn, Plotly, Beautiful Soup, Scrapy v.b.) ve onlarin kullanimlarinin anlatimi
+(anlatimlardan Corey in oldugu Pandas ve Beautiful Soup u bir kac kez seyretmeyi oneririm. Traversy nin Scrapy i de Web Scraping icin oldukca iyi bir baslangic. Daha onceden listenize eklemediyseniz FreeCodeCamp i  de  boylelikle listenize eklemis olursunuz):
+Link: https://www.theinsaneapp.com/2021/04/top-15-python-libraries-for-data-science.html
+ 
+2. 100’un uzerinde ucretsiz Machine Learning  kursu:
+Link: https://www.theinsaneapp.com/2021/02/best-free-machine-learning-courses.html
+ 
+3. 100 un uzerinde ucretsiz Machine Learning kitabi.
+Link: https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html

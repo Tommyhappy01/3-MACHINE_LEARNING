@@ -1,0 +1,276 @@
+What Is The Difference Between Supervised And Unsupervised Machine Learning?
+
+In recent articles I have looked at some of the terminology being used to describe 
+high-level Artificial Intelligence concepts – specifically machine learning and deep learning.
+In this piece, I want to look at two other concepts which are vital to understanding 
+how machines are becoming increasingly smarter and able to perform tasks which previously
+ could only be done by humans.
+Supervised and unsupervised learning describe two ways in which machines – algorithms – 
+
+can be set loose on a data set and expected to ‘learn’ something useful from it.
+
+
+Supervised Machine Learning
+
+Today, supervised machine learning is by far the more common across a wide range 
+of industry use cases. The fundamental difference is that with supervised learning, 
+the output of your algorithm is already known – just like when a student is learning
+ from an instructor. All that needs to be done is work out the process necessary to 
+get from your input, to your output. This is usually the case when an algorithm is 
+being ‘taught’ from a training data set. If the algorithms are coming up with results
+ which are widely different from those which the training data says should be expected,
+ the instructor can step in to guide them back to the right path.
+
+
+Unsupervised Machine Learning
+
+Unsupervised machine learning is a more complex process which has been put to use in 
+a far smaller number of applications so far. But this is where a lot of the excitement 
+over the future of Artificial Intelligence (AI) stems from. When people talk about 
+computers learning to ‘teach themselves’, rather than us having to teach them 
+(one of the principles of machine learning), they are often alluding to unsupervised
+ learning processes.
+
+In unsupervised learning, there is no training data set and outcomes are unknown. 
+Essentially the AI goes into the problem blind – with only its faultless logical 
+operations to guide it. Incredible as it seems, unsupervised machine learning is 
+the ability to solve complex problems using just the input data, and the binary 
+on/off logic mechanisms that all computer systems are built on. No reference data at all.
+
+Example: Difference Between Supervised And Unsupervised Machine Learning
+
+
+Here’s a very simple example. Say we have a digital image showing a number of coloured 
+geometric shapes which we need to match into groups according to their classification and 
+colour (a common problem in machine learning image recognition applications).
+
+With supervised learning, it’s a fairly straightforward procedure. We simply teach the 
+computer that shapes with four equal sides are known as squares, and shapes with eight 
+sides are known as octagons. We also tell it that if the light given off by a pixel 
+registers certain values, we classify it as ‘red’, and another set of values as ‘blue’.
+
+With unsupervised learning, things become a little trickier. The algorithm has the same 
+input data – in our example, digital images showing geometric shapes, in different colours, 
+and the same problem, which is to sort them into groups.
+
+It then uses what it can learn from this information – that the problem is one of 
+classification, and that some of the shapes match other ones, to certain degrees –
+ perhaps the same number of sides, or with matching digital markers indicating the colour.
+
+It can’t know that we will call this object a square, or an octagon, but it will recognise 
+other objects with roughly the same characteristics, group them together and assign its own 
+label to them, which it can also apply – with a degree of probability – to other similar shapes.
+
+Technically there is no right or wrong answer – the AI will simply learn the objective truth
+ that certain shapes belong together, to a degree of probability. Machine learning makes 
+mistakes – take a look at this video of DeepMind using unsupervised learning to master the 
+video game Breakout. But like us, its strength lies in its ability to learn from its mistakes
+ and make better educated estimations next time.
+
+What is Bayes’ Theorem? How is it useful in a machine learning context?
+
+Introduction: What is Bayes Theorem?
+Bayes Theorem is named for English mathematician Thomas Bayes, who worked extensively in decision 
+theory, the field of mathematics that involves probabilities. Bayes Theorem is also used widely in 
+machine learning,where it is a simple, effective way to predict classes with precision and accuracy.
+The Bayesian method of calculating conditional probabilities is used in machine learning applications
+that involve classification tasks.
+
+A simplified version of the Bayes Theorem, known as the Naive Bayes Classification, is used to reduce computation
+ time and costs. In this article, we take you through these concepts and discuss the applications of the Bayes 
+Theorem in machine learning. 
+
+Why use Bayes Theorem in Machine Learning?
+Bayes Theorem is a method to determine conditional probabilities – that is, the probability of one event occurring
+ given that another event has already occurred. Because a conditional probability includes additional conditions –
+ in other words, more data – it can contribute to more accurate results.
+
+Thus, conditional probabilities are a must in determining accurate predictions and probabilities in Machine Learning.
+ Given that the field is becoming ever more ubiquitous across a variety of domains, it is important to understand the
+ role of algorithms and methods like Bayes Theorem in Machine Learning.
+
+Before we go into the theorem itself, let’s understand some terms through an example. Say a  bookstore manager has 
+information about his customers’ age and income. He wants to know how book sales are distributed across three age-classes 
+of customers: youth (18-35), middle-aged (35-60), and seniors (60+). 
+
+Let us term our data X. In Bayesian terminology, X is called evidence. We have some hypothesis H, where we have some X 
+that belongs to a certain class C.
+
+
+Our goal is to determine the conditional probability of our hypothesis H given X, i.e., P(H | X).
+
+In simple terms, by determining P(H | X), we get the probability of X belonging to class C, given X. X has attributes of 
+age and income – let’s say, for instance, 26 years old with an income of $2000. H is our hypothesis that the customer will 
+buy the book.
+
+Pay close attention to the following four terms:
+
+Evidence – As discussed earlier, P(X) is known as evidence. It is simply the probability that the customer will, in this 
+case, be of age 26, earning $2000.
+Prior Probability – P(H), known as the prior probability, is the simple probability of our hypothesis – namely, that the 
+customer will buy a book. This probability will not be provided with any extra input based on age and income. Since the 
+calculation is done with lesser information, the result is less accurate.
+Posterior Probability – P(H | X) is known as the posterior probability. Here, P(H | X) is the probability of the customer
+buying a book (H) given X (that he is 26 years old and earns $2000). 
+Likelihood – P(X | H) is the likelihood probability. In this case, given that we know the customer will buy the book, the 
+likelihood probability is the probability that the customer is of age 26 and has an income of $2000.
+Given these, Bayes Theorem states:
+
+P(H | X) = [ P(X | H) * P(H) ] / P(X)
+
+Note the appearance of the four terms above in the theorem – posterior probability, likelihood probability, prior probability, 
+and evidence. 
+
+Read: Naive Bayes Explained
+
+How to Apply Bayes Theorem in Machine Learning
+The Naive Bayes Classifier, a simplified version of the Bayes Theorem, is used as a classification algorithm to classify data 
+into various classes with accuracy and speed. 
+
+Let’s see how the Naive Bayes Classifier can be applied as a classification algorithm. 
+
+Consider a general example: X is a vector consisting of ‘n’ attributes, that is, X = {x1, x2, x3, …, xn}.
+Say we have ‘m’ classes {C1, C2, …, Cm}. Our classifier will have to predict X belongs to a certain class. The class delivering
+ the highest posterior probability will be chosen as the best class. So mathematically, the classifier will predict for class Ci
+ iff P(Ci | X) > P(Cj | X). Applying Bayes Theorem:
+P(Ci | X) = [ P(X | Ci) * P(Ci) ] / P(X)
+
+P(X), being condition-independent, is constant for each class. So to maximize P(Ci | X), we must maximize [P(X | Ci) * P(Ci)].
+ Considering every class is equally likely, we have P(C1) = P(C2) = P(C3) … = P(Cn). So ultimately, we need to maximize only P(X | Ci). 
+Since the typical large dataset is likely to have several attributes, it is computationally expensive to perform the P(X | Ci) 
+operation for each attribute. This is where class-conditional independence comes in to simplify the problem and reduce computation
+ costs. By class-conditional independence, we mean that we consider the attribute’s values to be independent of one another 
+conditionally. This is the Naive Bayes Classification. 
+P(Xi | C) = P(x1 | C) * P(x2 | C) *… * P(xn | C)
+
+It is now easy to compute the smaller probabilities. One important thing to note here: since xk belongs to each attribute, we also
+ need to check whether the attribute we are dealing with is categorical or continuous.
+
+If we have a categorical attribute, things are simpler. We can just count the number of instances of class Ci consisting of the
+ value xk for attribute k and then divide that by the number of instances of class Ci.
+If we have a continuous attribute, considering we have a normal distribution function, we apply the following formula, with mean ?
+ and standard deviation ?:
+
+
+Source: Link.
+
+Ultimately, we will have P(x | Ci) = F(xk, ?k, ?k).
+
+Now, we have all the values we need to use Bayes Theorem for each class Ci. Our predicted class will be the class achieving the 
+highest probability P(X | Ci) * P(Ci).
+
+
+ What is deep learning, and how does it contrast with other machine learning algorithms?
+
+
+
+Deep learning vs. machine learning
+The easiest takeaway for understanding the difference between machine learning and deep learning is to know that deep learning 
+is machine learning.
+
+More specifically, deep learning is considered an evolution of machine learning. It uses a programmable neural network that 
+enables machines to make accurate decisions without help from humans.
+
+But for starters, let's first define machine learning.
+
+What is machine learning?
+Machine learning is an application of AI that includes algorithms that parse data, learn from that data, and then apply what 
+they’ve learned to make informed decisions.
+
+An easy example of a machine learning algorithm is an on-demand music streaming service. For the service to make a decision 
+about which new songs or artists to recommend to a listener, machine learning algorithms associate the listener’s preferences 
+with other listeners who have a similar musical taste. This technique, which is often simply touted as AI, is used in many 
+services that offer automated recommendations.
+
+Machine learning fuels all sorts of automated tasks that span across multiple industries, from data security firms that hunt 
+down malware to finance professionals who want alerts for favorable trades. The AI algorithms are programmed to constantly be
+ learning in a way that simulates as a virtual personal assistant—something that they do quite well.
+
+Machine learning involves a lot of complex math and coding that, at the end of the day, serves a mechanical function the same 
+way a flashlight, a car, or a computer screen does. When we say something is capable of “machine learning”, it means it’s 
+something that performs a function with the data given to it and gets progressively better over time. It's like if you had a 
+flashlight that turned on whenever you said “it's dark,” so it would recognize different phrases containing the word "dark."
+
+Now, the way machines can learn new tricks gets really interesting (and exciting) when we start talking about deep learning 
+and deep neural networks.
+ 
+
+What is deep learning?
+Deep learning is a subfield of machine learning that structures algorithms in layers to create an "artificial neural network” 
+that can learn and make intelligent decisions on its own.
+
+The difference between deep learning and machine learning
+In practical terms, deep learning is just a subset of machine learning. In fact, deep learning is machine learning and functions 
+in a similar way (hence why the terms are sometimes loosely interchanged). However, its capabilities are different.
+
+While basic machine learning models do become progressively better at whatever their function is, they still need some guidance.
+ If an AI algorithm returns an inaccurate prediction, then an engineer has to step in and make adjustments. With a deep learning
+ model, an algorithm can determine on its own if a prediction is accurate or not through its own neural network.
+
+Let’s go back to the flashlight example: it could be programmed to turn on when it recognizes the audible cue of someone saying 
+the word “dark”. As it continues learning, it might eventually turn on with any phrase containing that word. Now if the flashlight 
+had a deep learning model, it could figure out that it should turn on with the cues “I can’t see” or “the light switch won’t work,” 
+perhaps in tandem with a light sensor. A deep learning model is able to learn through its own method of computing—a technique that 
+makes it seem like it has its own brain.
+
+How does deep learning work?
+A deep learning model is designed to continually analyze data with a logic structure similar to how a human would draw conclusions.
+ To achieve this, deep learning applications use a layered structure of algorithms called an artificial neural network. The design
+ of an artificial neural network is inspired by the biological neural network of the human brain, leading to a process of learning 
+that’s far more capable than that of standard machine learning models.
+
+It’s a tricky prospect to ensure that a deep learning model doesn’t draw incorrect conclusions—like other examples of AI, it requires
+ lots of training to get the learning processes correct. But when it works as it’s intended to, functional deep learning is often 
+received as a scientific marvel that many consider being the backbone of true artificial intelligence.
+
+A great example of deep learning is Google’s AlphaGo. Google created a computer program with its own neural network that learned to
+ play the abstract board game called Go, which is known for requiring sharp intellect and intuition. By playing against professional 
+Go players, AlphaGo’s deep learning model learned how to play at a level never seen before in artificial intelligence, and did 
+without being told when it should make a specific move (as a standard machine learning model would require). It caused quite a stir 
+when AlphaGo defeated multiple world-renowned “masters” of the game—not only could a machine grasp the complex techniques and abstract 
+aspects of the game, it was becoming one of the greatest players of it as well.
+
+To recap the differences between the two:
+
+Machine learning uses algorithms to parse data, learn from that data, and make informed decisions based on what it has learned
+ 
+
+Deep learning structures algorithms in layers to create an "artificial neural network” that can learn and make intelligent decisions 
+on its own
+ 
+
+Deep learning is a subfield of machine learning. While both fall under the broad category of artificial intelligence, deep learning
+ is what powers the most human-like artificial intelligence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
